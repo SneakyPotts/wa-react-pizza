@@ -1,7 +1,7 @@
 { "data": [
   {
     "title": "Чизбургер-пицца",
-    "img": "",
+    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
     "type": [
       {
         "title": "тонкое",
@@ -30,7 +30,7 @@
   },
   {
     "title": "Сырная",
-    "img": "",
+    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
     "type": [
       {
         "title": "тонкое",
@@ -59,7 +59,7 @@
   },
   {
     "title": "Креветки по-азиатски",
-    "img": "",
+    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
     "type": [
       {
         "title": "тонкое",
@@ -88,7 +88,7 @@
   },
   {
     "title": "Сырный цыпленок",
-    "img": "",
+    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
     "type": [
       {
         "title": "тонкое",
