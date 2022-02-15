@@ -1,118 +1,453 @@
-{ "data": [
-  {
-    "title": "Чизбургер-пицца",
-    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
-    "type": [
-      {
-        "title": "тонкое",
-        "type": 1
-      },
-      {
-        "title": "традиционное",
-        "type": 2
-      }
-    ],
-    "radius": [
-      {
-        "title": "26 см.",
-        "type": 1
-      },
-      {
-        "title": "30 см.",
-        "type": 2
-      },
-      {
-        "title": "40 см.",
-        "type": 3
-      }
-    ],
-    "price": 395
-  },
-  {
-    "title": "Сырная",
-    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
-    "type": [
-      {
-        "title": "тонкое",
-        "type": 1
-      },
-      {
-        "title": "традиционное",
-        "type": 2
-      }
-    ],
-    "radius": [
-      {
-        "title": "26 см.",
-        "type": 1
-      },
-      {
-        "title": "30 см.",
-        "type": 2
-      },
-      {
-        "title": "40 см.",
-        "type": 3
-      }
-    ],
-    "price": 450
-  },
-  {
-    "title": "Креветки по-азиатски",
-    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
-    "type": [
-      {
-        "title": "тонкое",
-        "type": 1
-      },
-      {
-        "title": "традиционное",
-        "type": 2
-      }
-    ],
-    "radius": [
-      {
-        "title": "26 см.",
-        "type": 1
-      },
-      {
-        "title": "30 см.",
-        "type": 2
-      },
-      {
-        "title": "40 см.",
-        "type": 3
-      }
-    ],
-    "price": 290
-  },
-  {
-    "title": "Сырный цыпленок",
-    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
-    "type": [
-      {
-        "title": "тонкое",
-        "type": 1
-      },
-      {
-        "title": "традиционное",
-        "type": 2
-      }
-    ],
-    "radius": [
-      {
-        "title": "26 см.",
-        "type": 1
-      },
-      {
-        "title": "30 см.",
-        "type": 2
-      },
-      {
-        "title": "40 см.",
-        "type": 3
-      }
-    ],
-    "price": 385
-  }
-]}
+{
+  "data": [
+    {
+      "title": "Сырная",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/10abc7eb6428475c9263709a1266558c_292x292.jpeg",
+      "tags": [
+        "Вегетарианская"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 245
+    },
+    {
+      "title": "Пепперони фреш",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/eb6d128bbcd340e98fd4f14b377e769f_292x292.jpeg",
+      "tags": [
+        "Вегетарианская"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 245
+    },
+    {
+      "title": "Диабло",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/2ac448e39ba24623a33c1d8d50b69ef8_292x292.jpeg",
+      "tags": [
+        "Мясные",
+        "Острые"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 425
+    },
+    {
+      "title": "Додо",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/3e4065bbc610451f9441a9ced2426f23_292x292.jpeg",
+      "tags": [
+        "Мясные"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 425
+    },
+    {
+      "title": "Сырный цыпленок",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/01735d5a70154bd3884899030a671629_292x292.jpeg",
+      "tags": [
+        "Мясные"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 425
+    },
+    {
+      "title": "Овощи и грибы",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/d9343b8579eb41f6833d9851b516e92a_292x292.jpeg",
+      "tags": [
+        "Вегетарианская"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 375
+    },
+    {
+      "title": "Аррива!",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/163d95b8408843419b0c8ee18aa2452b_292x292.jpeg",
+      "tags": [
+        "Мясные",
+        "Острые"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 375
+    },
+    {
+      "title": "Четыре сезона",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/a02280d5dd9342f7925538752be9b521_292x292.jpeg",
+      "tags": [
+        "Мясные"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 375
+    },
+    {
+      "title": "Колбаски барбекю",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/20734006e66d427fb2cbb8fbb595b21e_292x292.jpeg",
+      "tags": [
+        "Мясные",
+        "Острые",
+        "Гриль"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 375
+    },
+    {
+      "title": "Цыпленок барбекю",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/57157f013c164840a24c1d49c7adb3b6_292x292.jpeg",
+      "tags": [
+        "Мясные",
+        "Гриль"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 425
+    },
+    {
+      "title": "Чизбургер-пицца",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/3bc057459afb4b2b8f2781bd1895b3a9_292x292.jpeg",
+      "tags": [
+        "Вегетарианская"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 425
+    },
+    {
+      "title": "Пицца-пирог",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c069fc6e169c4d4eae80e319b1d979e7_292x292.jpeg",
+      "tags": [
+        "Вегетарианская"
+      ],
+      "type": [
+        {
+          "title": "тонкое",
+          "type": 1,
+          "price": 50
+        },
+        {
+          "title": "традиционное",
+          "type": 2,
+          "price": 0
+        }
+      ],
+      "radius": [
+        {
+          "title": "26 см.",
+          "type": 1,
+          "price": 0
+        },
+        {
+          "title": "30 см.",
+          "type": 2,
+          "price": 50
+        },
+        {
+          "title": "40 см.",
+          "type": 3,
+          "price": 100
+        }
+      ],
+      "price": 325
+    }
+  ]
+}

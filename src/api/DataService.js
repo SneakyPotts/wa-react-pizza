@@ -7,6 +7,13 @@ class DataService {
 
     return data;
   }
+
+  static async filterData(filter) {
+    const response = await fetch(`${API_URL}/data?tags_like=${filter}`)
+    const data = await response.json();
+
+    return data;
+  }
 }
 
 export default DataService

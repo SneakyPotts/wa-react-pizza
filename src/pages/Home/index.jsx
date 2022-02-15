@@ -5,7 +5,7 @@ import Sort from "../../components/Sort";
 import PizzaBlock from "../../components/PizzaBlock";
 import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {getData} from "../../store/actions/home";
+import {getData, getfilter} from "../../store/actions/home";
 import DataService from "../../api/DataService";
 
 const Home = () => {
@@ -16,8 +16,15 @@ const Home = () => {
 
   useEffect( async () => {
     const data = await DataService.fetchData();
+    const tags = [
+      ...new Set(
+        data.map(i => i?.tags).flat()
+      )
+    ];
+
     dispatch(getData(data));
-    setIsLoading(false)
+    dispatch(getfilter(tags));
+    setIsLoading(false);
   }, [])
 
   return (

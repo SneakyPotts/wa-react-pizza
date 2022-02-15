@@ -15,12 +15,15 @@ const PizzaBlock = ({ data }) => {
     radius: 1
   });
 
-  const changeConf = (name, value) => {
+  const [totalPrice, setTotalPrice] = useState(price);
+
+  const changeConf = (name, value, priceValue) => {
     return () => {
       setConf({
         ...conf,
         [name]: value
       });
+      setTotalPrice(price + priceValue);
     }
   }
 
@@ -38,7 +41,7 @@ const PizzaBlock = ({ data }) => {
             <li
               key={i?.type}
               className={classNames({active: (i?.type === conf?.type)})}
-              onClick={changeConf('type', i?.type)}
+              onClick={changeConf('type', i?.type, i?.price)}
             >{i?.title}</li>
           ))}
         </ul>
@@ -47,13 +50,13 @@ const PizzaBlock = ({ data }) => {
             <li
               key={i?.type}
               className={classNames({active: i?.type === conf?.radius})}
-              onClick={changeConf('radius', i?.type)}
+              onClick={changeConf('radius', i?.type, i?.price)}
             >{i?.title}</li>
           ))}
         </ul>
       </div>
       <div className="pizza-block__bottom">
-        <div className="pizza-block__price">от {price} ₽</div>
+        <div className="pizza-block__price">от {totalPrice} ₽</div>
         <div className="button button--outline button--add">
           <svg
             width="12"
