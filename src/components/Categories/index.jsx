@@ -11,7 +11,7 @@ const filterData = [
   'Острые',
 ];
 
-const Categories = () => {
+const Categories = ({setFilter}) => {
   const dispatch = useDispatch();
   const [isActive, setIsActive] = useState('');
   const { filters } = useSelector(state => state.home)
@@ -26,9 +26,9 @@ const Categories = () => {
   //   })
   // })
 
-  const fetchFilter = async (value = '') => {
-    const data = await DataService.filterData(value);
-    dispatch(getData(data));
+  const fetchFilter = (value = '') => {
+    setFilter(prev => ({...prev, tags: value}))
+    // dispatch(getData(data));
     setIsActive(value);
   }
 
